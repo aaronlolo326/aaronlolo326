@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Chun Hei Lo"
-  avatar           : "/assets/photos/avatar_photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/photos/avatar_photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Ph.D. student at CUHK working on Computational Linguistics"
   location         : "Hong Kong"
   email            : "aaronlo326@gmail.com"
@@ -118,7 +118,7 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/aaronlololo"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"

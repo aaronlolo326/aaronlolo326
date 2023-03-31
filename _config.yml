@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 title                    : "Chun Hei Lo"
-title_separator          : # "-"
+title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Chun Hei Lo"
 description              : #
@@ -81,7 +81,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : aaronlolo326
 facebook:
   username               :
   app_id                 :
@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Chun Hei Lo"
-  avatar           : "/files/avatar_photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/photos/avatar_photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Ph.D. student at CUHK working on Computational Linguistics"
   location         : "Hong Kong"
   email            : "aaronlo326@gmail.com"

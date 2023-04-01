@@ -120,6 +120,34 @@
   }
 }
 
+// added by me
+.archive__item-authors {
+  margin-top: 0;
+  font-size: $type-size-6;
+
+  & + p {
+    text-indent: 0;
+  }
+
+  a {
+    position: relative;
+  }
+}
+
+// added by me
+.archive__item-venue {
+  margin-top: 0;
+  font-size: $type-size-6;
+
+  & + p {
+    text-indent: 0;
+  }
+
+  a {
+    position: relative;
+  }
+}
+
 /*
    List view
    ========================================================================== */
@@ -232,6 +260,27 @@
       max-height: 120px;
     }
   }
+  
+// added by me
+  .archive__item-authors {
+    display: none;
+
+    @include breakpoint($medium) {
+      display: block;
+      font-size: $type-size-6;
+    }
+  }
+
+// added by me
+  .archive__item-venue {
+    display: none;
+
+    @include breakpoint($medium) {
+      display: block;
+      font-size: $type-size-6;
+    }
+  }
+
 }
 
 /*

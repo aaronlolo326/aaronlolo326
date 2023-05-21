@@ -46,6 +46,7 @@
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
+  color: $muted-text-color;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -117,6 +118,28 @@
   a {
     color: #fff;
     text-decoration: none;
+  }
+}
+
+// backup original title
+.archive__item-oriTitle {
+  margin-bottom: 0.25em;
+  font-family: $sans-serif-narrow;
+  line-height: initial;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  a[rel="permalink"]::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  a + a {
+    opacity: 0.5;
   }
 }
 
@@ -475,7 +498,7 @@
   .feature__wrapper {
     .archive__item-title {
       margin-top: 0.25em;
-      font-size: 1em;
+      font-size: 0.8em;
     }
   }
 

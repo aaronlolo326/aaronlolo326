@@ -6,7 +6,7 @@ permalink: /research/
 author_profile: true
 TCSFromDMRS:
   - alt: "TCSFromDMRS"
-    title: "Functinoal Distributional Semantics at Scale"
+    title: "Functional Distributional Semantics at Scale"
     authors: "Chun Hei Lo, Hong Cheng, Wai Lam, and Guy Emerson"
     venue: "To appear in _*SEM 2023_"
     image_path: /assets/gifs/fdsas.gif

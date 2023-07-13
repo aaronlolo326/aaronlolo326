@@ -46,6 +46,9 @@
           {% if f.url_video %}
             <a href="{{ f.url_video | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label_video | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
           {% endif %}
+          {% if f.url_poster %}
+            <a href="{{ f.url_poster| relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label_poster | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+          {% endif %}
         </div>
       </div>
     </div>

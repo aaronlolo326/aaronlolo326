@@ -12,9 +12,11 @@ TCSFromDMRS:
     image_path: /assets/gifs/fdsas.gif
     url_paper: "/assets/pdfs/StarSEM2023_FDSAS_camReady.pdf"
     url_slides: "/assets/ppts/FDSAS_slides_starsem.ppsx"
+    url_poster: "/assets/pdfs/FDSAS_poster.pdf"
     # url_video: "https://aclanthology.org/2022.acl-long.372.mp4"
     btn_label_paper: "Paper"
     btn_label_slides: "Slides"
+    btn_label_poster: "Poster"
     # btn_label_video: "Video"
     btn_class: "btn--inverse"
 pshrgOnDMRS:

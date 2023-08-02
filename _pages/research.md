@@ -8,7 +8,8 @@ TCSFromDMRS:
   - alt: "TCSFromDMRS"
     title: "Functional Distributional Semantics at Scale"
     authors: "Chun Hei Lo, Hong Cheng, Wai Lam, and Guy Emerson"
-    venue: "To appear in _*SEM 2023_"
+    venue: "In _*SEM 2023_"
+    tldr: "Functional Distributional Semantics (FDS) attempts learn probabilistic truth-conditional semantics from distributional information in a corpus. This work extends the applicability of FDS to sentences with more complex structures."
     image_path: /assets/gifs/fdsas.gif
     url_paper: "/assets/pdfs/StarSEM2023_FDSAS_camReady.pdf"
     url_slides: "/assets/ppts/FDSAS_slides_starsem.ppsx"
@@ -24,6 +25,7 @@ pshrgOnDMRS:
     title: "Semantic Composition with PSHRG for Derivation Tree Reconstruction from Graph-Based Meaning Representations"
     authors: "Chun Hei Lo, Wai Lam, and Hong Cheng"
     venue: "In _ACL 2022_"
+    tldr: "This work explores the use of a formal graph grammar in approximating the composition of meaning representation graphs and recovering their synatctic derivations. Surface realization becomes more explainable with the syntax trees."
     image_path: /assets/gifs/pshrg.gif
     url_paper: "https://aclanthology.org/2022.acl-long.372.pdf"
     url_slides: "/assets/ppts/pshrgOnDmrs_slides.pptx"

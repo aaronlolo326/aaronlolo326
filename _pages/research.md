@@ -10,7 +10,7 @@ FDSHyper:
     authors: "Chun Hei Lo, and Guy Emerson"
     venue: "In _arXiv_"
     tldr: "This work shows that Functional Distributional Semantics (FDS) captures hypernymy if trained on a corpus that follows the Distributional Inclusion Hypothesis (DIH) and proposes an alternative training objective for FDS that handles simple universal quantifications for hypernymy learning under the reverse of DIH."
-    image_path: /assets/FDSHyper/FDShyper.png
+    image_path: /assets/FDShyper/FDShyper.png
     # gif_width: 200
     # gif_caption: "his work shows that Functional Distributional Semantics (FDS) can capture hypernymy if trained on a corpus that follows the Distributional Inclusion Hypothesis (DIH), and proposes a training objective that handles simple universal quantifications and allow hypernymy learning under the reverse of DIH."
     url_paper: "https://arxiv.org/abs/2309.08325"
@@ -22,7 +22,7 @@ FDSHyper:
     # btn_label_poster: "Poster"
     # btn_label_video: "Video"
     btn_class: "btn--inverse"
-  - image_path: /assets/FDSHyper/FDShyper.gif
+  - image_path: /assets/FDShyper/FDShyper.gif
 TCSFromDMRS:
   - alt: "TCSFromDMRS"
     title: "Functional Distributional Semantics at Scale"

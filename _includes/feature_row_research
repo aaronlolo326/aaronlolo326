@@ -1,0 +1,65 @@
+{% if include.id %}
+  {% assign feature_row = page[include.id] %}
+{% else %}
+  {% assign feature_row = page.feature_row %}
+{% endif %}
+
+<div class="feature__wrapper">
+
+  {% for f in feature_row %}
+    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+      <div class="archive__item">
+        {% if f.image_path %}
+          <div class="archive__item-teaser">
+            <img src="{{ f.image_path | relative_url }}"
+                 alt="{% if f.alt %}{{ f.alt }}{% endif %}">
+            {% if f.image_caption %}
+              <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        <div class="archive__item-body">
+          {% if f.title %}
+            <h3 class="archive__item-title">{{ f.title }}</h3>
+            <!-- <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3> -->
+          {% endif %}
+
+          {% if f.authors %}
+            <div class="archive__item-authors">
+              {{ f.authors | markdownify }}
+            </div>
+          {% endif %}
+
+          {% if f.venue %}
+          <div class="archive__item-venue">
+            {{ f.venue | markdownify }}
+          </div>
+          {% endif %}
+
+          {% if f.tldr %}
+          <p class="notice--info" align="left"><strong>TLDR:</strong> {{ f.tldr }}</p>
+          <!-- {{ f.tldr | markdownify }} {: .notice} -->
+          {% endif %}
+
+          <p>
+            {% if f.url_paper %}
+              <a href="{{ f.url_paper | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label_paper | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+            {% endif %}
+            {% if f.url_slides %}
+              <a href="{{ f.url_slides | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label_slides | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+            {% endif %}
+            {% if f.url_video %}
+              <a href="{{ f.url_video | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label_video | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+            {% endif %}
+            {% if f.url_poster %}
+              <a href="{{ f.url_poster| relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label_poster | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+            {% endif %}
+          </p>
+          
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+
+</div>

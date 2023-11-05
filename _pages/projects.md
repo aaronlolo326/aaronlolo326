@@ -25,7 +25,7 @@ CVJD:
     title: "CV–JD Recommendation System"
     # authors: "Chun Hei Lo, Wai Lam, and Hong Cheng"
     venue: "2019"
-    description: "I wrote a crawler to scrap over 40,000 publicly available CVs and 20,000 job descriptions (JD). Word-level and document-level representations are learnt using the scrapped data using unsupervised methods. A CV–JD matching algorithm based on the learnt representations was developed. Simple manual evaluation was attempted and the results look coherent!"
+    description: "I wrote a crawler to scrap over 40,000 publicly available CVs and 20,000 job descriptions (JD). Word-level and document-level representations are learnt using the scrapped data using unsupervised methods. A CV–JD matching algorithm based on the learnt representations was developed. A comprehensive evaluation was attempted and the results look coherent!"
     image_path: /assets/CVJD/cv_sample.png
     url_paper: "assets/CVJD/cvjd_report.pdf"
     url_slides: "/assets/CVJD/cvjd_slides.ppsx"

@@ -38,7 +38,7 @@
           {% endif %}
 
           {% if f.tldr %}
-          <p class="notice--info" align="left"><strong>TLDR:</strong> {{ f.tldr }}</p>
+          <p class="notice--info" align="left"><strong>TL;DR:</strong> {{ f.tldr }}</p>
           <!-- {{ f.tldr | markdownify }} {: .notice} -->
           {% endif %}
 

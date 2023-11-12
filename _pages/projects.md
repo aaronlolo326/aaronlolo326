@@ -9,7 +9,7 @@ DSTC9:
     title: "Task-Oriented Dialogue System with Unstructured Knowledge Access"
     # authors: "Chun Hei Lo, Wai Lam, and Hong Cheng"
     venue: "2021"
-    description: "This is a joint work with the CUHK team in participating Track 1 of the Ninth Dialog System Technology Challenge (DSTC9). I was involved in the subtask of knowledge selection, to which I proposed a factorized approach. We ranked 12 out of the 24 participating teams in the end."
+    description: "This is a joint work with the CUHK team in participating the Ninth Dialog System Technology Challenge (DSTC9). I worked on ranked retrieval of knowledge snippets that best answers the user's query given the dialogue history. We ranked 12 out of the 24 participating teams. Visit the links below to see how we appproached it!"
     image_path: /assets/DSTC9/dstc9.gif
     url_task: "https://github.com/alexa/alexa-with-dstc9-track1-dataset"
     url_paper: "https://arxiv.org/abs/2101.06066#:~:text=15%20Jan%202021%5D-,Unstructured%20Knowledge%20Access%20in%20Task%2Doriented%20Dialog%20Modeling%20using%20Language,and%20Knowledge%2DIntegrative%20Response%20Generation&text=Dialog%20systems%20enriched%20with%20external,of%20the%20supporting%20databases%2FAPIs."

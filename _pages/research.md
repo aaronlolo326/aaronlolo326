@@ -33,11 +33,12 @@ TCSFromDMRS:
     url_paper: "https://aclanthology.org/2023.starsem-1.37.pdf"
     url_slides: "/assets/FDSAS/FDSAS_slides_starsem.ppsx"
     url_poster: "/assets/FDSAS/FDSAS_poster.pdf"
+    url_code: "https://github.com/aaronlolo326/TCSfromDMRS/tree/main"
     # url_video: "https://aclanthology.org/2022.acl-long.372.mp4"
     btn_label_paper: "Paper"
     btn_label_slides: "Slides"
     btn_label_poster: "Poster"
-    # btn_label_video: "Video"
+    btn_label_code: "Code"
     btn_class: "btn--inverse"
 pshrgOnDMRS:
   - alt: "pshrgOnDMRS"

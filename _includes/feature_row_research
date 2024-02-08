@@ -43,6 +43,9 @@
           {% endif %}
 
           <p>
+            {% if f.url_task %}
+            <a href="{{ f.url_task | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label_task | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+            {% endif %}
             {% if f.url_paper %}
               <a href="{{ f.url_paper | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label_paper | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
             {% endif %}
@@ -54,6 +57,15 @@
             {% endif %}
             {% if f.url_poster %}
               <a href="{{ f.url_poster| relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label_poster | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+            {% endif %}
+            {% if f.url_code %}
+            <a href="{{ f.url_code | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label_code | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+            {% endif %}
+            {% if f.url_sample_out %}
+              <a href="{{ f.url_sample_out | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label_sample_out | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+            {% endif %}
+            {% if f.url_plot %}
+              <a href="{{ f.url_plot| relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label_plot | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
             {% endif %}
           </p>
           

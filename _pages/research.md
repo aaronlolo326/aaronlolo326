@@ -8,7 +8,7 @@ FDSHyper:
   - alt: "FDSHyper"
     title: "Distributional Inclusion Hypothesis and Quantifications: Probing for Hypernymy in Functinoal Distributional Semantics"
     authors: "Chun Hei Lo, Wai Lam, Hong Cheng, and Guy Emerson"
-    venue: "In _arXiv_"
+    venue: "To appear in _ACL 2024_"
     tldr: "This work reveals that Functional Distributional Semantics (FDS) captures hypernymy if trained on a corpus that follows the Distributional Inclusion Hypothesis (DIH). We further propose an alternative FDS training objective that handles simple universal quantifications, which enables hypernymy learning under the reverse of the DIH and is shown to improve hypernymy detection from corpora."
     image_path: /assets/FDShyper/FDShyper.png
     # gif_width: 200

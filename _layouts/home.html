@@ -6,14 +6,11 @@ layout: single
 <!-- <h3 class="archive__item-body">About me</h3> -->
 <h1 id="page-title" class="archive__subtitle">About me</h1>
 
-<p>I am a final-year PhD student at The Chinese University of Hong Kong (CUHK), where I also received my B.Sc. in Computer Science in 2019.</p>
-<p>I am interested in computational semantics, with a particular research focus of developing computational methods that would expand the intersection of theory-centric formal semantics and data-driven statistcal semantics.
-  My PhD research studies sentence-level meaning representations through the lens of graph grammar and distributional semantics.</p>
-<p>Feel free to reach me at aaronlo326 [at] gmail [dot] com!</p>
-<!-- {{ content }}  -->
+<div class="feature__wrapper">
+<p class="archive__item-body">{{ page.about_me }}</p>
+</div>
 
-
-<!-- <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3> -->
+<h1 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
 {% if paginator %}
   {% assign posts = paginator.posts %}
@@ -23,10 +20,19 @@ layout: single
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
+  {% for post in posts limit: 3 %}
     {% include archive-single.html type=entries_layout %}
   {% endfor %}
 </div>
 
-{% include paginator.html %}
+<!-- {% for tag in site.tags %}
+  <h3>{{ tag[0] }}</h3>
+  <ul>
+    {% for post in tag[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %} -->
+
+<!-- {% include paginator.html %} -->
 

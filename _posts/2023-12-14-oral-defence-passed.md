@@ -24,8 +24,7 @@ thank my examiners Helen Meng, Sibo Wang, and Jing Jiang for your questions and 
 feedback.
 
 <i>
-I have to thank Guy Emerson from Cambridge, with whom I have had many fruitful dis-
-cussions during remote calls, in-person chats, and not to mention on the DELPH-IN Discourse
+I have to thank Guy Emerson from Cambridge, with whom I have had many fruitful discussions during remote calls, in-person chats, and not to mention on the DELPH-IN Discourse
 forum. I am thankful for the opportunity to attend and present at the DELPH-IN Summit, which
 would not have been an event in any possible world I could envision. It has been a pleasure to collaborate with you. I would also love to thank Sunny Lai, who opened the door of computational
 linguistics to me and aided my first steps in research.

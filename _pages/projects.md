@@ -44,6 +44,6 @@ CVJD:
   {% include archive-single.html %}
 {% endfor %} -->
 
-{% include feature_row_projects id="DSTC9" type="right" %}
+<!-- {% include feature_row_projects id="DSTC9" type="right" %} -->
 
 {% include feature_row_projects id="CVJD" type="left" %}

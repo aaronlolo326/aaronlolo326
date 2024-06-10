@@ -34,6 +34,11 @@
           {% if f.description %}
           <p class="notice--info" align="left"><strong>Description:</strong> {{ f.description }}</p>
           <!-- {{ f.tldr | markdownify }} {: .notice} -->
+          {% else %}
+            {% if f.tldr %}
+            <p class="notice--info" align="left"><strong>TL;DR:</strong> {{ f.tldr }}</p>
+            <!-- {{ f.tldr | markdownify }} {: .notice} -->
+            {% endif %}
           {% endif %}
 
           <p>

@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Chun Hei Lo"
   avatar           : "/assets/photos/avatar_photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Ph.D. student at CUHK working on Computational Linguistics"
+  bio              : "Ph.D. graduate working on Computational Linguistics"
   location         : "Hong Kong"
   email            : "aaronlo326@gmail.com"
   links:

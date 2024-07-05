@@ -8,19 +8,19 @@ FDSHyper:
   - alt: "FDSHyper"
     title: "Distributional Inclusion Hypothesis and Quantifications: Probing for Hypernymy in Functinoal Distributional Semantics"
     authors: "Chun Hei Lo, Wai Lam, Hong Cheng, and Guy Emerson"
-    venue: "To appear in _ACL 2024_"
+    venue: "In _ACL 2024_; **Area Chair Award**"
     tldr: "This work reveals that Functional Distributional Semantics (FDS) captures hypernymy if trained on a corpus that follows the Distributional Inclusion Hypothesis (DIH). We further propose an alternative FDS training objective that handles simple universal quantifications, which enables hypernymy learning under the reverse of the DIH and is shown to improve hypernymy detection from corpora."
     image_path: /assets/FDShyper/FDShyper.png
     # gif_width: 200
     # gif_caption: "his work shows that Functional Distributional Semantics (FDS) can capture hypernymy if trained on a corpus that follows the Distributional Inclusion Hypothesis (DIH), and proposes a training objective that handles simple universal quantifications and allow hypernymy learning under the reverse of DIH."
-    url_paper: "https://arxiv.org/abs/2309.08325"
-    # url_slides: "/assets/ppts/FDSAS_slides_starsem.ppsx"
-    # url_poster: "/assets/pdfs/FDSAS_poster.pdf"
-    # url_video: "https://aclanthology.org/2022.acl-long.372.mp4"
+    url_paper: "https://aclanthology.org/2024.acl-long.784/"
+    url_slides: "/assets/FDShyper/FDShyper_slides_acl2024.pdf"
+    url_poster: "/assets/FDShyper/FDShyper_poster.pdf"
+    url_video: "/assets/FDShyper/FDShyper_pres.mp4"
     btn_label_paper: "Paper"
-    # btn_label_slides: "Slides"
-    # btn_label_poster: "Poster"
-    # btn_label_video: "Video"
+    btn_label_slides: "Slides"
+    btn_label_poster: "Poster"
+    btn_label_video: "Video"
     btn_class: "btn--inverse"
   - image_path: /assets/FDShyper/FDShyper.gif
 TCSFromDMRS:
